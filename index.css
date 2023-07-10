@@ -8,7 +8,7 @@ body {
 menu {
     background: rgba(229, 84, 115, 0.10);
     margin: 0px;
-   
+
 }
 
 .menu {
@@ -16,7 +16,7 @@ menu {
     justify-content: space-around;
     align-items: center;
     padding-top: 60px;
-    
+
 
 }
 
@@ -44,7 +44,8 @@ menu {
 
 
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(240, 47, 47);
     box-shadow: 5px 5px 10px black;
 }
@@ -59,5 +60,71 @@ menu {
 
 
 }
+
 /*menu end*/
 
+.content-header {
+    color: #272727;
+    text-align: center;
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.product-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+    width: 594px;
+}
+
+.product-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.product-img-div {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    background-image: url('Flower Asset/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.two {
+    background: rgba(71, 125, 17, 0.15);
+
+
+    background-image: url('Flower Asset/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.three {
+    background: rgba(167, 33, 98, 0.15);
+
+
+    background-image: url('Flower Asset/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.img-name {
+    color: #272727;
+    text-align: center;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    text-decoration-line: underline;
+}
