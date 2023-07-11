@@ -23,7 +23,7 @@ menu {
 .content-headerr {
     color: #272727;
 
-    font-size: 80px;
+    font-size: 50px;
 
     font-weight: 800;
     width: 708px;
@@ -33,12 +33,12 @@ menu {
 
 .btn {
     border: none;
-    padding: 20px 43px;
+    padding: 15px 30px;
     box-shadow: 2px 2px 10px black;
     background: #E55473;
     color: #FFF;
 
-    font-size: 20px;
+    font-size: 16px;
 
     font-weight: 700;
     cursor: pointer;
@@ -55,7 +55,7 @@ menu {
     max-width: 634px;
     color: rgba(39, 39, 39, 0.60);
 
-    font-size: 18px;
+    font-size: 14px;
 
     font-weight: 400;
 
@@ -68,7 +68,7 @@ menu {
     color: #272727;
     text-align: center;
 
-    font-size: 40px;
+    font-size: 30px;
 
     font-weight: 800;
 
@@ -78,13 +78,14 @@ menu {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
 
-    font-size: 18px;
+    font-size: 14px;
 
     font-weight: 400;
-    width: 594px;
+    width: 450px;
 }
 
 .product-imgs {
+    width: 80%;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -92,11 +93,14 @@ menu {
 }
 
 .product-img-div {
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
+    width: 320px;
+    height: 370px;
+    border-radius: 150px 150px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
     background-image: url('Flower Asset/pngwing\ 5.png');
+    background-size: 250px 250px;
+    
+    
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -108,6 +112,7 @@ menu {
     background-image: url('Flower Asset/pngwing\ 7.png');
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 250px 250px;
 }
 
 .three {
@@ -117,13 +122,14 @@ menu {
     background-image: url('Flower Asset/pngwing\ 6.png');
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 250px 250px;
 }
 
 .img-name {
     color: #272727;
     text-align: center;
 
-    font-size: 24px;
+    font-size: 18px;
 
     font-weight: 700;
 
@@ -131,7 +137,7 @@ menu {
 }
 
 .serve {
-    width: 1300px;
+    width: 80%;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-around;
@@ -146,7 +152,7 @@ menu {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
 
-    font-size: 20px;
+    font-size: 16px;
 
 
     line-height: 35px;
@@ -155,24 +161,28 @@ menu {
 
 .sell {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     align-items: center;
 }
+.more-pic{width: 80%;}
 
 .pic {
     display: flex;
     justify-content: center;
     gap: 24px;
+    width: 100%;
 }
 .form{
-    width: 1440px;
-    height: 449px;
+    width: 100%;
+    height: 400px;
     margin: auto;
     background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
 }
 .input{
-    width: 450px;
-    height: 50px;
+    width: 400px;
+    height: 40px;
 background-color: transparent;
 border: none;
 box-shadow: 2px 2px 7px black;
@@ -183,3 +193,22 @@ border-radius: 4px;
 justify-content: center;
 gap: 50px;
 align-items: center;}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 350px;
+    background-color: #201f1f;
+
+}
+.footer-header{
+    color: white;
+}
+.footer-des{
+    color:#ffffff66;
+margin: auto;}
+    
